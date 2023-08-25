@@ -64,7 +64,25 @@ body{
     border-radius: 10% 0% 0%;
 }
 
-.details {
+
+h3 {
     display: flex;
-    flex-wrap:
+    flex:content;
+    justify-content: center;
+    background-color: rgba(255, 235, 205, 0.233);
+}
+
+
+
+h5
+{
+    padding-top: 10px;
+    padding-left:10px;
+}
+
+
+.about-me{
+    margin-top:15px;
+    height:fit-content;
+    width:fit-content;
 }
