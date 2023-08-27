@@ -42,6 +42,7 @@
     padding-right:30px;
     border-radius:20px; 
     overflow: hidden;
+    z-index: 1;
 
 }
 
@@ -52,12 +53,42 @@
     /* because it's aligning to the CENTER of the container, not the full height */
     align-items:center;
     justify-content:space-between;
+    
 }
 
-/* .map-img{
+
+/* .map isn't working. WHY??? */
+
+/* .map{
     width:100%;
     position: absolute;
     top: 0;
     left: 0;
     opacity: 0.3%;
-} */
+    z-index:-1;
+}  */
+
+.card-no{
+    /* display:flex; */
+    font-size:35px;
+    margin-top: 60px;
+    text-shadow: 2px 2px rgb(128, 129, 130) ;
+    /* justify-content:start; */
+}
+
+.cardholder{
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+.name{
+    display:content;
+    margin-top:40px;
+    font-size:x-large;
+    text-shadow: 2px,2px, rgb(128,129,130);
+}
+
+.valid-thru{
+    justify-content: flex-end;
+}
