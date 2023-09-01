@@ -2,14 +2,16 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    background-image: url(Redbg.jpg);
-    background-position: cover;
+    background-image: url(black-wall-empty-room-with-concrete-floor.jpg);
+    background-size:100%;
+    background-position:center;
     background-attachment: fixed;
     background-repeat:no-repeat;
 
 }
 
 body{
+    position:fixed;
     min-height: 100vh;
     min-width: 100vw;
     display:flex;
@@ -42,12 +44,12 @@ button,.bx-menu {
     cursor:pointer;
     border:none;
     border-radius: 50%;
-    background-color: transparent;
+    background:none;
     transition: .5s;
 
 }
 button:hover{
-    transform:scale(1.1);
+    transform:scale(1.2);
     
 }
 
