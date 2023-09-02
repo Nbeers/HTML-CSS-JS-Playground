@@ -11,7 +11,7 @@
 }
 
 body{
-    position:fixed;
+    position:auto;
     min-height: 100vh;
     min-width: 100vw;
     display:flex;
@@ -66,12 +66,14 @@ button:hover{
 .service,a{
     color:white;
     text-decoration: none;
+    
 }
 
-.service:hover{
+.service :hover{
+    transform:scale(1.1);
     font-weight:bold;
     text-decoration: underline;
-
+    transition:.5s smooth;
 }
 main{
     display:flex;
