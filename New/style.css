@@ -55,13 +55,14 @@ button {
     height:min-content;
     background-color:transparent;
     border:none;
+    text-align: top;
     transition:.5s;
 }
 
 .nav-button:hover{
     color:rgb(102, 0, 255);
-    transform:rotate(.25turn);
 }
+
 .bx-menu{
     font-size:2em;
 }
@@ -148,39 +149,17 @@ h4 {
     display:flex;
 }
 
-.color-box{
-    display:flex;
-    position:absolute;
-    top:0;
-    right:0;
-    background: linear-gradient(rgb(102, 0, 255),rgb(43,2,104));
-    border-radius: 10px;
-    height: 80%;
-    width:100%;
-    z-index:-1;
-    translate:150px;
-    justify-content: flex-end;
-    align-items:center;
-}
-
-
-.shopping-cart{
-    display:flex;
+.add-cart{
     height:100px;
     width:100px;
-    background-color:#707070ae;
-    justify-content:center;
-    align-items:center;
     border-radius:50%;
-    margin-right:50px;
 }
 
-.shopping-cart img{
-height: 75px;
-width: 75px;
-margin-right:5px;
-}   
+.cart{
+    height:50px;
+    width:50px;
+    padding:5px;
 
-.shopping-cart:hover{
-    cursor:pointer;
 }
+
+
