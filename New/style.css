@@ -36,11 +36,20 @@
   }
   
   .bxl-graphql{
+    
       font-size:5em;
       flex-basis: 50%;
       background: -webkit-linear-gradient(rgb(102, 0, 255),rgb(43,2,104));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+  }
+
+  .logotext{
+    font-family: 'Titillium Web', sans-serif;
+    font-size:medium;
+    align-items:center;
+    font-weight: bold;
+    padding: 0;
   }
   
   .navlink{
