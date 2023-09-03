@@ -158,8 +158,14 @@ h4 {
 .cart{
     height:50px;
     width:50px;
-    padding:5px;
-
+    border-radius:50%;
+    background:linear-gradient(rgb(102, 0, 255,.5),rgb(43,2,104,.5));
 }
 
+
+#cart-button{
+    background-color:none;
+    border:none;
+    border-radius:50%;
+}
 
