@@ -151,8 +151,9 @@
   }
   
   .add-cart{
-      height:50px;
-      width:150px;
+    position: relative;
+    top:220px;
+    width:150px;
         
 }
     
@@ -162,8 +163,19 @@
       background-color:transparent;
       display:flex;
       flex-direction: column;
-      
+      font-weight: bold;
       }
+
+    .color-bar{
+        height:550px;
+        width:80%;
+        position:absolute;
+        background:linear-gradient(rgb(102, 0, 255,.5),rgba(20, 1, 49, 0.5));
+        z-index:-1;
+        border-radius: 15px;
+        transform:translateX(325px);
+
+    }
 
   .bx-cart-add{
         font-size:60pt;
@@ -172,4 +184,5 @@
   }
 
   .bx-cart-add:hover{
-        background:linear-gradient(rgb(102, 0, 255,.7),rgb(43,2,104,.7));}
+    background-color: #474646a7;
+  }
