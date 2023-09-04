@@ -111,6 +111,11 @@
     color:antiquewhite;
   }
 
+  .navbar{
+    background-color:rgb(234, 234, 234);
+
+  }
+
   .col-1 h3{
       font-size: large;
       color: #4802ba;
