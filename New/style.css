@@ -6,7 +6,11 @@
   }
   
   body {
-   background-color:white;
+   background:url(2312673.jpg);
+   background-position: center;
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
    color:black;
    -webkit-font-smoothing: antialiased;
   }
@@ -36,20 +40,22 @@
   }
   
   .bxl-graphql{
-    
       font-size:5em;
       flex-basis: 50%;
       background: -webkit-linear-gradient(rgb(102, 0, 255),rgb(43,2,104));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+
   }
 
   .logotext{
+    position:relative;
+    right:575px;
     font-family: 'Titillium Web', sans-serif;
     font-size:medium;
     align-items:center;
     font-weight: bold;
-    padding: 0;
+    padding:0;
   }
   
   .navlink{
@@ -103,7 +109,7 @@
   
   .col-1 h3{
       font-size: large;
-      color: #707070;
+      color: #4802ba;
       font-weight:100;
       margin: 10px 0 10px;
       padding-left: 30px;
@@ -179,7 +185,7 @@
         height:550px;
         width:80%;
         position:absolute;
-        background:linear-gradient(rgb(102, 0, 255,.5),rgba(20, 1, 49, 0.5));
+        background:linear-gradient(rgb(102, 0, 255,.7),rgba(20, 1, 49, 0.7));
         z-index:-1;
         border-radius: 15px;
         transform:translateX(325px);
